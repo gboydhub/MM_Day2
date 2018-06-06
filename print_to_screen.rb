@@ -16,7 +16,9 @@
 
 i = 1
 while i <= 100 do
-    if i % 3 == 0
+    if (i%3==0) && (i%5==0)
+        print "mined minds "
+    elsif i % 3 == 0
         print "mined "
     elsif i % 5 == 0
         print "minds " 
