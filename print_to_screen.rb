@@ -16,25 +16,15 @@
 
 i = 1
 while i <= 100 do
-    if i == 3
+    if i % 3 == 0
         print "mined "
-    elsif i == 4
+    elsif i % 5 == 0
         print "minds " 
     else
         print "#{i} "
     end
     i+=1
-    if i % 10 == 0 then
+    if i % 20 == 0 then
         print "\n"
     end
 end
-
-int main()
-{
-    int i = 0;
-    while(i < 100)
-        {
-            printf("%d", i);
-            i++;
-        }
-}
